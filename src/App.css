@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* the header */
+#part1{
+  background-color: #538cc6;
+  color:white;
+}
+
+h4{
+  font-family: 'Concert One', cursive;
+  font-size: 30px;
+}
+
+/* the nav */
+li{
+  color:#538cc6;
+  cursor: pointer;
+}
+
+#easy{
+ margin-right: 5px; 
+}
+
+#hard{
+  margin-left: 5px;
+}
+
+/* the nav */
+#easy:hover{
+  background-color:#538cc6;
+  padding-bottom: 1.5px;
+  padding-top: 9.5px;
+  padding-right: 3px;
+  padding-left:3px;
+  color:white; 
+}
+
+#hard:hover{
+  background-color:#538cc6;
+  padding-bottom: 1.5px;
+  padding-top: 9.5px;
+  padding-right: 3px;
+  padding-left:3px;
+  color:white; 
+}
+
+#shuffle:hover{
+  background-color:#538cc6;
+  padding-bottom: 1.5px;
+  padding-top: 9.5px;
+  color:white;  
+}
+
+/* our buttons div */
+#part3{
+  background-color: black;
+}
+
+#part4{
+  /* the max px for avoid ugly grid-system */
+  padding-bottom:117px;
+}
+
+#combo{
+  color:yellow;
+}
+
+#comboNum {
+  color: yellow;
+}
+
+.buttons { 
+  border:none;
+  color:black;
+  /* button size for avoid unresponsive page at grid system */
+  padding: 71.1px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 16px 8px;
+  /* when hover a button there is a hand */
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.cliked{
+  color:white;
+  background-color:#538cc6 ;
+}
+
+.duration{
+  /* animation-duration: 2s; */
+  background-color: rebeccapurple;
+}
+
+#r{
+  color:rgb(255,0,0);
+}
+
+#g{    
+  color:rgb(0,255,0);
+}
+
+#b{
+  color:rgb(0,0,255);
+} 
+
+/* end */
