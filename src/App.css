@@ -2,10 +2,10 @@
   text-align: center;
 }
 
-/* the header */
-#part1{
+.part1{
   background-color: #538cc6;
   color:white;
+  padding:0.012px;
 }
 
 h4{
@@ -13,97 +13,79 @@ h4{
   font-size: 30px;
 }
 
-/* the nav */
-li{
-  color:#538cc6;
-  cursor: pointer;
-}
-
-#easy{
- margin-right: 5px; 
-}
-
-#hard{
-  margin-left: 5px;
-}
-
-/* the nav */
-#easy:hover{
-  background-color:#538cc6;
-  padding-bottom: 1.5px;
-  padding-top: 9.5px;
-  padding-right: 3px;
-  padding-left:3px;
-  color:white; 
-}
-
-#hard:hover{
-  background-color:#538cc6;
-  padding-bottom: 1.5px;
-  padding-top: 9.5px;
-  padding-right: 3px;
-  padding-left:3px;
-  color:white; 
-}
-
-#shuffle:hover{
-  background-color:#538cc6;
-  padding-bottom: 1.5px;
-  padding-top: 9.5px;
-  color:white;  
-}
-
-/* our buttons div */
-#part3{
-  background-color: black;
-}
-
-#part4{
-  /* the max px for avoid ugly grid-system */
-  padding-bottom:117px;
-}
-
-#combo{
+.combo{
   color:yellow;
 }
 
-#comboNum {
+.comboNum {
   color: yellow;
+}
+
+.easy {
+  color:#538cc6;
+}
+
+.hard {
+  color:#538cc6;
+}
+
+.shuffle {
+  color: #538cc6;
+}
+
+.easy:hover{
+  background-color:#538cc6;
+  color:white; 
+}
+
+.hard:hover{
+  background-color:#538cc6;
+  color:white; 
+}
+
+.shuffle:hover{
+  background-color:#538cc6;
+  color:white;  
+}
+
+.part3{
+  background-color: black;
 }
 
 .buttons { 
   border:none;
   color:black;
-  /* button size for avoid unresponsive page at grid system */
-  padding: 71.1px; 
+  padding: 45.5px; 
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 32px;
   margin: 16px 8px;
-  /* when hover a button there is a hand */
   cursor: pointer;
   border-radius: 12px;
 }
 
 .cliked{
   color:white;
-  background-color:#538cc6 ;
+  background-color:#538cc6;
 }
 
-.duration{
-  /* animation-duration: 2s; */
-  background-color: rebeccapurple;
-}
-
-#r{
+.r{
   color:rgb(255,0,0);
 }
 
-#g{    
+.g{    
   color:rgb(0,255,0);
 }
 
-#b{
+.b{
   color:rgb(0,0,255);
+} 
+
+.ulStyle {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-evenly;
 }
