@@ -1,0 +1,83 @@
+#part1 {
+  color: #fff;
+  background-color: #538cc6;
+}
+
+h4 {
+  font-family: Concert One, cursive;
+  font-size: 30px;
+}
+
+li {
+  color: #538cc6;
+  cursor: pointer;
+}
+
+#easy {
+  margin-right: 5px;
+}
+
+#hard {
+  margin-left: 5px;
+}
+
+#easy:hover, #hard:hover {
+  color: #fff;
+  background-color: #538cc6;
+  padding: 9.5px 3px 1.5px;
+}
+
+#shuffle:hover {
+  color: #fff;
+  background-color: #538cc6;
+  padding-top: 9.5px;
+  padding-bottom: 1.5px;
+}
+
+#part3 {
+  background-color: #000;
+}
+
+#part4 {
+  padding-bottom: 57px;
+}
+
+#combo {
+  color: #ff0;
+}
+
+#comboNum {
+  color: #95098c;
+}
+
+.buttons {
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  margin: 16px 8px;
+  padding: 59px;
+  font-size: 32px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cliked {
+  color: #fff;
+  background-color: #538cc6;
+}
+
+#r {
+  color: red;
+}
+
+#g {
+  color: #0f0;
+}
+
+#b {
+  color: #00f;
+}
+
+/*# sourceMappingURL=index.61d3354a.css.map */
