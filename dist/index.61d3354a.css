@@ -72,6 +72,18 @@ li {
   display: inline-block;
 }
 
+@media screen and (width <= 525px) {
+  #h1 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (width <= 286px) {
+  #h1 {
+    font-size: 20px;
+  }
+}
+
 @media screen and (width <= 484px) {
   h1 {
     font-size: 20px;

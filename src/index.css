@@ -84,6 +84,18 @@ li{
   border-radius: 12px;
 }
 
+@media screen and (max-width: 525px) {
+  #h1{
+    font-size: 23px;
+  }
+} 
+
+@media screen and (max-width: 286px) {
+  #h1{
+    font-size: 20px;
+  }
+} 
+
 @media screen and (max-width: 484px) {
   h1{
     font-size: 20px;
