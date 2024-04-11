@@ -75,6 +75,44 @@ li{
   border-radius: 12px;
 }
 
+@media screen and (max-width: 484px) {
+  h1{
+    font-size: 20px;
+  }
+} 
+
+@media screen and (max-width: 410px) {
+  .buttons  
+  {
+    padding: 39px;
+  };
+  li{
+    font-size: 13px;
+  }
+  #part4{
+    padding-bottom: 80px;
+  }
+} 
+
+@media screen and (max-width: 321px) {
+  .buttons  
+  {
+    padding: 29px;
+  };
+  li{
+    font-size: 8px;
+  }
+  #part4{
+    padding-bottom: 130px;
+  }
+} 
+
+@media screen and (max-width: 259px) {
+  h1{
+    font-size: 17px;
+  }
+} 
+
 .cliked{
   color:white;
   background-color:#538cc6 ;
