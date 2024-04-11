@@ -21,17 +21,28 @@ li {
   margin-left: 5px;
 }
 
-#easy:hover, #hard:hover {
-  color: #fff;
-  background-color: #538cc6;
-  padding: 9.5px 3px 1.5px;
+#easy:hover {
+  color: #9acd32;
+}
+
+#easy:active {
+  color: red;
+}
+
+#hard:hover {
+  color: #9acd32;
+}
+
+#hard:active {
+  color: red;
 }
 
 #shuffle:hover {
-  color: #fff;
-  background-color: #538cc6;
-  padding-top: 9.5px;
-  padding-bottom: 1.5px;
+  color: #9acd32;
+}
+
+#shuffle:active {
+  color: red;
 }
 
 #GUESSING {

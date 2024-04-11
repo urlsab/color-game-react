@@ -22,28 +22,27 @@ li{
 }
 
 #easy:hover{
-  background-color:#538cc6;
-  padding-bottom: 1.5px;
-  padding-top: 9.5px;
-  padding-right: 3px;
-  padding-left:3px;
-  color:white; 
+  color:yellowgreen; 
+}
+
+#easy:active{
+  color: red;
 }
 
 #hard:hover{
-  background-color:#538cc6;
-  padding-bottom: 1.5px;
-  padding-top: 9.5px;
-  padding-right: 3px;
-  padding-left:3px;
-  color:white; 
+  color:yellowgreen; 
+}
+
+#hard:active{
+  color: red;
 }
 
 #shuffle:hover{
-  background-color:#538cc6;
-  padding-bottom: 1.5px;
-  padding-top: 9.5px;
-  color:white;  
+  color:yellowgreen;  
+}
+
+#shuffle:active{
+  color: red;
 }
 
 #GUESSING{
