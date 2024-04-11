@@ -36,6 +36,7 @@ li {
 
 #GUESSING {
   margin-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 #part3 {
@@ -87,7 +88,7 @@ li {
   }
 
   #part4 {
-    padding-bottom: 80px;
+    padding-bottom: 90px;
   }
 }
 
