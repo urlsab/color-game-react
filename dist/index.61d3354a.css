@@ -34,6 +34,10 @@ li {
   padding-bottom: 1.5px;
 }
 
+#GUESSING {
+  margin-bottom: 10px;
+}
+
 #part3 {
   background-color: #000;
 }
@@ -48,6 +52,10 @@ li {
 
 #comboNum {
   color: #95098c;
+}
+
+.nav {
+  margin-bottom: 10px;
 }
 
 .buttons {

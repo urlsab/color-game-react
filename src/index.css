@@ -46,6 +46,10 @@ li{
   color:white;  
 }
 
+#GUESSING{
+  margin-bottom: 10px;
+}
+
 #part3{
   background-color: black;
 }
@@ -60,6 +64,10 @@ li{
 
 #comboNum {
   color: rgb(149, 9, 140);
+}
+
+.nav {
+  margin-bottom: 10px;
 }
 
 .buttons { 
