@@ -261,4 +261,3 @@ buttons[2].addEventListener("click",guess);
 buttons[3].addEventListener("click",guess);
 buttons[4].addEventListener("click",guess);
 buttons[5].addEventListener("click",guess);
-
